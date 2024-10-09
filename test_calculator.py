@@ -23,4 +23,4 @@ def test_division():
     assert calculate_division(4, 2) == 2
     assert calculate_division(-1, 2) == -0.5
     assert calculate_division(-1, -2) == 0.5
-    assert calculate_division(0, 0) == "error"
+    assert calculate_division(0, 0) == "Error: cannot divide by 0"
